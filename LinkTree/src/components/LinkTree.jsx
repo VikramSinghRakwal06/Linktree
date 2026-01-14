@@ -8,7 +8,7 @@ import goku from '../assets/goku.jpg'
 const links = [
   { name: "GitHub", url: "https://github.com/VikramSinghRakwal06", icon: <FaGithub />, color: "from-blue-500 to-purple-500" },
   { name: "LinkedIn", url: "https://www.linkedin.com/in/vikram-singh-9384b5250/", icon: <FaLinkedin />, color: "from-blue-700 to-indigo-500" },
-  { name: "Insgtagram", url: "https://www.instagram.com/vikram_singh014/", icon: <FaInstagram />, color: "from-cyan-500 to-blue-400" },
+  { name: "Instagram", url: "https://www.instagram.com/vikram_singh014/", icon: <FaInstagram />, color: "from-cyan-500 to-blue-400" },
   { name: "Email", url: "mailto:vikramrakwal9682@gmail.com", icon: <FaEnvelope />, color: "from-green-500 to-teal-400" },
 ];
 
