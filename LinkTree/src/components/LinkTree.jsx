@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaFileAlt } from "react-icons/fa";
 import zoro from "../assets/zoro.svg";
 import konoha from "../assets/konoha.png";
 import avatar from '../assets/pokemon.jpg'
@@ -10,6 +10,12 @@ const links = [
   { name: "LinkedIn", url: "https://www.linkedin.com/in/vikram-singh-9384b5250/", icon: <FaLinkedin />, color: "from-blue-700 to-indigo-500" },
   { name: "Instagram", url: "https://www.instagram.com/vikram_singh014/", icon: <FaInstagram />, color: "from-cyan-500 to-blue-400" },
   { name: "Email", url: "mailto:vikramrakwal9682@gmail.com", icon: <FaEnvelope />, color: "from-green-500 to-teal-400" },
+  { 
+    name: "Resume", 
+    url: "/VikramCV.pdf", 
+    icon: <FaFileAlt />, 
+    color: "from-red-600 to-orange-500" 
+  },
 ];
 
 const Linktree = () => {
